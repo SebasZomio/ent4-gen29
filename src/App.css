@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tilt Neon', sans-serif;
+  
+}
+
+body{
+  background-image: url('/public/Colorful-colors-watercolors-abstract-picture_1920x1440.jpg');
+}
+.app-title {
+  text-align: center;
+  margin: 1rem;
+}
+
+.user-form{
+  width: 400px;
+  background-color: #1f6764;
+  color: #161616;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin: auto;
+  margin-top: 35px;
+  border-radius: 1rem;
+  ;
+}
+
+.form{
+  font-size: 24px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+::placeholder{
+  text-align: center;
+  color: #161616;
+}
+
+.controls{
+  width: 100%;
+  background-color: #1f6764;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #92b35a;
+  font-size: 18px;
+}
+
+.button{
+  width: 100%;
+  background-color: #c94d65;
+  border: none;
+  padding: 10px;
+  color:#161616;
+  margin: 16px 0;
+  font-size: 25px;
+  box-shadow: 7px 13px 37px #000;
+}
+
+button:active {
+  background-color: #e7c049;
+  transform: scale(0.95);
+}
+
+/*UserCard*/
+
+.user-card{
+  width: 400px;
+  background-color: #1f6764;
+  color: #161616;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.user-card li{
+  list-style-type: none
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax( 150px 1fr ) );
+}
+
+.user-card button{
+  width: 100%;
+  background-color: #c94d65;
+  border: none;
+  padding: 10px;
+  color:#161616;
+  margin: 16px 0;
+  font-size: 15px;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+article{
+  padding: 10px;
+  margin: 5px;
+  border: 1px none;
+  box-sizing: border-box;
+}
